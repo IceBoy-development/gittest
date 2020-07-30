@@ -50,7 +50,7 @@ peton[1] = prompt('как твоё имя','');
 
 /*const user = 'Ivan';
 alert(`привет, ${user}`);*/
-console.log(4+ +'9');
+/*console.log(4+ +'9');
 
 let incr = 10,
 decr = 10;
@@ -62,7 +62,7 @@ console.log(10%5);
 
 let check = true,
     close = true;
-    console.log(check||close);
+    console.log(check||close);*/
     
 
 
