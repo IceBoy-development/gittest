@@ -64,6 +64,65 @@ let check = true,
     close = true;
     console.log(check||close);*/
     
+   /* let a = 10, 
+    b = 100;
+if (a>b){
+    console.log('Nice');
+} else{
+    console.log('bad');
+}*/
+
+/*const dak = 100;
+
+if (dak>101){
+    console.log('hh');
+}else if(dak>1000){
+    console.log('ll');
+}else{
+    console.log('ok');
+}
+(dak === 100)? console.log('ok') : console.log('bad');*/
+
+ /*const a = 50;
+ switch(a){
+     case 49:
+         console.log('bad');
+         break;
+         case 51:
+         console.log('very bad');
+         break;
+         default:
+            console.log('mayby ');
+            break;
+ }*/
+
+
+ /*while(a < 55){
+     console.log(a);
+     a++;
+     
+ }*/
+    
+
+
+ /*let a= 50;
+
+ do{
+    console.log(a);
+    a++;
+ }
+while(a<55);*/
+
+/*let i = 10;
+
+for(i = 1; i < 100;i++){
+    if(i == 65){
+        continue;
+    }
+    console.log(i);
+}*/
+
+    
 
 
 
