@@ -121,9 +121,40 @@ for(i = 1; i < 100;i++){
     }
     console.log(i);
 }*/
+/*let num = 10;
+function test(){
+    num+=10; 
+}
+console.log(num);
+*/
 
-    
+function calc(a, b) {
+    return (a * b);
+}
+console.log(calc(8, 3));
+console.log(calc(5, 3));
+console.log(calc(448, 3));
+console.log(calc(48, 3));
 
 
+function cast(){
+    let papa = 5 ;
+    return papa;
+}
+const another = cast(); 
+console.log(another);
+
+const far = 'yellow ball';
+const arr = [1,2,3,4,5];
+console.log(arr.length);
+
+const fert = "type";
+console.log(fert.indexOf('type'));
+console.log(fert.toUpperCase());
 
 
+const dart = "Привет, Андрей!";
+console.log(dart.slice(6,14));
+
+const dar = "12.4";
+console.log(Math.round(dar));
