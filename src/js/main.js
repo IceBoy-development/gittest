@@ -41,16 +41,16 @@ console.log(rrt[2]);*/
 //console.log(typeof(an));
 
 //подтверждение частного случая объекта
-/*const peton = [];
+const peton = [];
 peton[0] = prompt('как твоё имя','');
 peton[1] = prompt('как твоё имя','');
-//document.write(peton);*/
+//document.write(peton);
 
 //интерполяция
 
 /*const user = 'Ivan';
-alert(`привет, ${user}`);*/
-/*console.log(4+ +'9');
+alert(`привет, ${user}`);
+console.log(4+ +'9');
 
 let incr = 10,
 decr = 10;
@@ -62,17 +62,16 @@ console.log(10%5);
 
 let check = true,
     close = true;
-    console.log(check||close);*/
-    
+    console.log(check||close);
    /* let a = 10, 
     b = 100;
 if (a>b){
     console.log('Nice');
 } else{
     console.log('bad');
-}*/
+}
 
-/*const dak = 100;
+const dak = 100;
 
 if (dak>101){
     console.log('hh');
@@ -81,9 +80,9 @@ if (dak>101){
 }else{
     console.log('ok');
 }
-(dak === 100)? console.log('ok') : console.log('bad');*/
+(dak === 100)? console.log('ok') : console.log('bad');
 
- /*const a = 50;
+const a = 50;
  switch(a){
      case 49:
          console.log('bad');
@@ -94,18 +93,18 @@ if (dak>101){
          default:
             console.log('mayby ');
             break;
- }*/
+ }
 
 
  /*while(a < 55){
      console.log(a);
      a++;
      
- }*/
+ }
     
 
 
- /*let a= 50;
+let a= 50;
 
  do{
     console.log(a);
@@ -113,20 +112,13 @@ if (dak>101){
  }
 while(a<55);*/
 
-/*let i = 10;
-
-for(i = 1; i < 100;i++){
-    if(i == 65){
-        continue;
-    }
-    console.log(i);
-}*/
+ 
 /*let num = 10;
 function test(){
     num+=10; 
 }
 console.log(num);
-*/
+
 
 function calc(a, b) {
     return (a * b);
@@ -158,3 +150,60 @@ console.log(dart.slice(6,14));
 
 const dar = "12.4";
 console.log(Math.round(dar));
+
+function learn (lang,callback){
+    callback();
+    console.log(`Я учу ${lang}`);
+    
+}
+function done(){
+    console.log('I am smart boy');
+}
+learn('JS',done);
+
+const options = {
+    name:'vadik',
+    width:400,
+    height:400,
+    colors:{
+        border:'black',
+        bg:'red'
+    }
+};
+
+const {border,bg} = options.colors;
+console.log(border,bg);
+//console.log(options);
+let counter = 0;
+for (let key in options){
+    if (typeof(options[key])==='object'){
+        for (let i in options[key]){
+            console.log( 'Ключ:'+ key + "Значение:" + options[key][i]);
+        }
+        
+    }else{
+        console.log( 'Ключ:'+ key + "Значение:" + options[key]);
+        counter++;
+    }
+    
+}
+console.log(counter);
+
+const tamb = [1,2,3,6,8];
+tamb[99] = 5;
+console.log(tamb.length);*/
+
+const str = prompt("","");
+const products = str.split(", " );
+console.log(products.join(";"));
+
+const ya = "Auslan;Fadik;Binat";
+const fall = ya.split(";");//превратили str в массив
+console.log(fall.join(";"));//превращает массив str в строку
+
+const gad = "apple;kivi;banana";
+const tru = gad.split(";");
+tru.sort();
+console.log(tru.join(";"));
+
+ 
