@@ -41,9 +41,9 @@ console.log(rrt[2]);*/
 //console.log(typeof(an));
 
 //подтверждение частного случая объекта
-const peton = [];
-peton[0] = prompt('как твоё имя','');
-peton[1] = prompt('как твоё имя','');
+//const peton = [];
+//peton[0] = prompt('как твоё имя','');
+//peton[1] = prompt('как твоё имя','');
 //document.write(peton);
 
 //интерполяция
@@ -118,7 +118,7 @@ function test(){
     num+=10; 
 }
 console.log(num);
-
+/*
 
 function calc(a, b) {
     return (a * b);
@@ -193,17 +193,48 @@ const tamb = [1,2,3,6,8];
 tamb[99] = 5;
 console.log(tamb.length);*/
 
-const str = prompt("","");
+/*const str = prompt("","");
 const products = str.split(", " );
-console.log(products.join(";"));
+console.log(products.join(";"));*/
 
 const ya = "Auslan;Fadik;Binat";
 const fall = ya.split(";");//превратили str в массив
 console.log(fall.join(";"));//превращает массив str в строку
 
-const gad = "apple;kivi;banana";
+/*const gad = "apple;kivi;banana";
 const tru = gad.split(";");
 tru.sort();
-console.log(tru.join(";"));
+console.log(tru.join(";"));*/
 
+ let nut = 225;
+ console.log("https:vk.com/catalog/" + nut);
+console.log(typeof(parseInt("15px",105)));
+
+//let x = 5; alert( x++ ); будет 5 так как постфиксная форма выведет сначала старое значение а уж потом новое
+
+//console.log([ ] + false - null + true);[ ] превращается "" а потом идут арифм действия поэтому NaN
+
+/*let y = 1;
+ let x = y = 2; 
+ alert(x);выведет 2 так как сначала y = 2 а потом x =y*/
+
+ //console.log([ ] + 1 + 2); выведет 12 так как [] превратится  в "" и дальше всё сплюсуется в одну строку
+
+ //alert( "1"[0] ); выведет 1 так как 0 это индекс(номер буквы из строки)
+
+ //console.log(2 && 1 && null &&  0 &&  undefined) выведется null так как И запинается на лжи а null это ложь
+ // а ИЛИ запинается на правде  
+
+ //console.log(!!( 1 && 2 ) === (1 && 2)); false так как !! меняет следующую скобку на булиновое значение
  
+ //alert( null || 2 && 3 || 4 ); 3
+
+ /*const a = [1,2,3];
+ const b = [1,2,3];
+ console.log(a==b); не одиноково пример с ящиками яблок*/
+
+ //alert (+"Infinity"); выведет Infinity
+
+ // "Ёжик" > "яблоко" посмотреть приоритет букв\
+
+ //console.log(0 || "" || 2 || undefined || true || falsе); или запинаттся на правде
