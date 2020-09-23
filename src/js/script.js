@@ -87,7 +87,7 @@ perconalMovieDB.rememberMyfilmes();
 perconalMovieDB.showMyDB();
 perconalMovieDB.writeYourGanres();
 perconalMovieDB.toggleVisibleMyDB();
-perconalMovieDB.detectPerconalLavel()
+perconalMovieDB.detectPerconalLavel();
 
 
 
